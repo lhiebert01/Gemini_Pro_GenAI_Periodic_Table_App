@@ -1,14 +1,13 @@
-# GenAI_PDF_App# GenAI PDF App 📚
+# Gemini_Pro_GenAI_Periodic_Table_App # Gemini Pro GenAI Periodic Table App ⚗️
 
-A powerful Software as a Service Streamlit application that uses Google's Gemini Pro AI most advance model to analyze PDF documents and provide intelligent responses to questions about their content with interactive Q&A.  
+A powerful Software as a Service Streamlit application that uses Google's Gemini Pro AI to enable interactive exploration of the Periodic Table with advanced Q&A capabilities.
 
 ## Features 🌟
 
-- PDF Document Analysis
-- Advanced Question & Answering
-- Multiple Export Options (TXT, DOCX)
-- Markdown Support
-- Formatted Document Generation
+- Interactive Periodic Table
+- Advanced Question & Answering on Chemical Elements
+- Real-time ChatBot integrated with Google's Gemini Pro
+- Element Information Popup with Wikipedia Integration
 
 ## Commercial Usage Notice 💼
 
@@ -22,8 +21,8 @@ While this code is available under the MIT license, the following terms apply:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/lhiebert01/GenAI_PDF_App.git
-cd GenAI_PDF_App
+git clone https://github.com/lhiebert01/Gemini_Pro_GenAI_Periodic_Table_App.git
+cd Gemini_Pro_GenAI_Periodic_Table_App
 ```
 
 2. Install dependencies:
@@ -35,13 +34,12 @@ pip install -r requirements.txt
 
 1. Run the application:
 ```bash
-streamlit run genaipdf.py
+streamlit run App.py
 ```
 
-2. Upload PDF documents using the sidebar
-3. Process the documents
-4. Ask questions about the content
-5. Export chat history in various formats
+2. Explore the Periodic Table interactively
+3. Ask questions about elements and chemical concepts
+4. View detailed information and learn more through Wikipedia links
 
 ## Requirements 📋
 
@@ -54,21 +52,14 @@ streamlit run genaipdf.py
 
 The application uses:
 - Google's Gemini Pro for advanced language processing
-- FAISS for efficient vector storage and retrieval
-- LangChain for document processing and chain management
 - Streamlit for the user interface
-
-## Export Options 📤
-
-- Plain Text (.txt)
-- Word Document (.docx)
-- Formatted Word Document with markdown conversion
+- Custom HTML and JavaScript for an enhanced interactive Periodic Table experience
 
 ## Commercial Licensing 💳
 
 For commercial use inquiries, please contact:
 - Email: lindsay.hiebert@gmail.com
-- Subject: "GenAI PDF App Commercial License"
+- Subject: "Gemini Pro Periodic Table App Commercial License"
 
 Future versions will include:
 - Subscription-based access
